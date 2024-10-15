@@ -15,13 +15,17 @@ turtle.setup (width=600, height=600)    # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.speed(0)
-tina.color('purple')
-for i in range(2500):
-    tina.forward(666)
-    tina.left(666)
-    tina.forward(666)
-    tina.left(666)
-    tina.forward(666)
-    tina.left(666)
-    tina.forward(i)
-    
+tina.color('blue')
+for i in range(999):
+    tina.forward(50)
+    tina.left(30)
+    tina.forward(50)
+    tina.left(40)
+    tina.back(i*5)
+    tina.forward(60)
+    tina.left(40)
+    tina.forward(60)
+    tina.left(50)
+    tina.back(-i/50)
+
+   
