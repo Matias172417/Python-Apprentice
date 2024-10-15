@@ -18,14 +18,5 @@ tina.speed(0)
 tina.color('blue')
 for i in range(999):
     tina.forward(50)
-    tina.left(30)
-    tina.forward(50)
-    tina.left(40)
-    tina.back(i*5)
-    tina.forward(60)
-    tina.left(40)
-    tina.forward(60)
-    tina.left(50)
-    tina.back(-i/50)
 
-   
+  
